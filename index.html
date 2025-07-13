@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>prototype | web</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div id="home"></div>
+    <div id="scroll-progress"></div>
+
+    <script src="ProgressBar.js"></script>
+
+    <div class="icon-bkg">
+      <i class="fa-solid fa-code"></i>
+      <i class="fa-solid fa-microchip"></i>
+      <i class="fa-solid fa-terminal"></i>
+      <i class="fa-solid fa-code-compare"></i>
+      <i class="fa-solid fa-gear"></i>
+      <i class="fa-solid fa-network-wired"></i>
+    </div>
+    <h1>What is the Web?</h1>
+
+    <div class="anim-list-header">
+      <div class="content">
+        <div class="item">HTML</div>
+        <div class="item">CSS</div>
+        <div class="item">Adaptive</div>
+        <div class="item">JavaScript</div>
+        <div class="item">Framework</div>
+        <div class="item">Vue.js</div>
+        <div class="item">Node.js</div>
+        <div class="item">Code</div>
+        <div class="item">Laptop</div>
+        <div class="item">React</div>
+      </div>
+    </div>
+
+  </header>
+
+  <main style="height: 100%">
+
+    <script src="script.js"></script>
+
+    <div class="nav">
+       <nav>
+         <a href="#home">Home</a>
+         <div>
+           <a href="#html">HTML</a>
+           <a href="#css">CSS</a>
+           <a href="#JavaScript">JavaScript</a>
+         </div>
+         <a href="#contacts">contacts</a>
+        </nav>
+    </div>
+
+    <section class="about">
+      <h1> <i class="fa-solid fa-code"></i>  Що таке веб-розробка?</h1>
+      <p>На цьому сайті ви знайдете базові визначення, приклади, та способи використання тих чи інших мов програмування.
+        Тут зібрані три основні мови, це красуня <span>html</span>, її косметичка <span>css</span> та нервова система - <span>JavaScript</span>.
+      </p>
+    </section>
+
+    <img class="img" style="z-index: -2;" src="laptop.jpg" width="850px" height="400px">
+
+    <section class="html-section">
+      <div style="position: relative; top: -80px;" id="html"></div>
+      <h1> <i class="fa-solid fa-laptop-code"></i>   HTML - основа сайту.</h1>
+      <p class="n1"><span>HTML</span> (від англ. <span>HyperText Markup Language</span> — мова гіпертекстової розмітки) — це основна мова, яка використовується для створення структури веб-сторінок в Інтернеті.<br><br>
+        HTML не є мовою програмування — це <span>мова розмітки</span>, яка вказує браузеру, як відображати вміст: текст, зображення, відео, посилання, списки, таблиці, форми тощо.
+      </p>
+
+      <article class="work-html">
+        <h2> Як працює HTML? <i class="fa-solid fa-code"></i></h2>
+        <p class="n2">HTML складається з тегів, які беруться в кутові дужки, наприклад:</p>
+        <div class="code-box">
+          <div><span class="gray">&lt;</span><span class="blue">h1</span><span class="gray">&gt;</span> Hello, World! <span class="gray">&lt;</span><span class="blue">/h1</span><span class="gray">&gt;</span><br></div>
+          <div><span class="gray">&lt;</span><span class="blue">p</span><span class="gray">&gt;</span> Це приклад абзацу <span class="gray">&lt;</span><span class="blue">/p</span><span class="gray">&gt;</span></div>
+        </div>
+          <p class="n2">Усі елементи сторінки мають початковий <span class="gray">&lt;</span><span class="blue">name</span><span class="gray">&gt;</span> та кінцевий <span class="gray">&lt;</span><span class="blue">/name</span><span class="gray">&gt;</span> теги. </p>
+      </article>
+
+      <article class="possibility-html">
+        <h2> <i class="fa-solid fa-cube"></i> Основні можливості HTML: </h2>
+
+        <table>
+          <tr>
+            <td> <i class="fa-solid fa-rocket"></i> Функція</td>
+            <td> <i class="fa-solid fa-gear"></i> Пояснення</td>
+          </tr>
+
+          <tr>
+            <td>Структурування тексту</td>
+            <td>Заголовки, абзаци, списки, цитати</td>
+          </tr>
+
+          <tr>
+            <td>Додавання медіа</td>
+            <td>Вставка зображень, відео, аудіо</td>
+          </tr>
+
+          <tr>
+            <td>Створення гіперпосилань</td>
+            <td>Перехід на інші сторінки чи сайти</td>
+          </tr>
+
+          <tr>
+            <td>Форми введення</td>
+            <td>Поля для заповнення: ім’я, e-mail, пароль тощо</td>
+          </tr>
+
+          <tr>
+            <td>Підключення CSS та JavaScript</td>
+            <td>Для стилів і взаємодії з користувачем</td>
+          </tr>
+
+          <tr>
+            <td>Семантичні елементи </td>
+            <td>Наприклад:  &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt; — для логічної структури</td>
+          </tr>
+
+        </table>
+      </article>
+
+    </section>
+
+    <section class="css-section">
+      <div style="position: relative; top: -80px;" id="css"></div>
+      <h1> <i class="fa-solid fa-filter"></i> CSS - основа стилів.</h1>
+      <p class="n1"><span>CSS</span> (від англ. <span>Cascading Style Sheets</span> — каскадні таблиці стилів) — це мова, яка використовується для оформлення вебсторінок: кольори, шрифти, розміри, розташування, анімації, адаптивність тощо.<br><br>
+        HTML створює структуру, а CSS робить її <span>стильною</span> та <span>привабливою.</span>
+      </p>
+
+      <article class="work-css">
+        <h2> Як працює СSS? <i class="fa-solid fa-check"></i></h2>
+        <p class="n2">CSS пишеться у вигляді правил:</p>
+        <div class="code-box">
+          <span class="yellow">h1</span> <span class="yellow-2">{</span>
+            <span class="blue">color</span>: <span class="red">purple</span>;
+            <span class="blue">font-size</span>: <span class="green">36px</span>;
+            <span class="blue">text-align</span>: <span class="red">center</span>;
+          <span class="yellow-2">}</span>
+        </div>
+          <p class="n2"> <span class="yellow">h1</span> — це селектор ( до якого застосовуються стилі )<br>
+            <span class="blue">color</span>, <span class="blue">font-size</span>, <span class="blue">text-align</span> - властивості<br>
+            <span class="red">center</span>, <span class="red">purple</span>, <span class="green-2">36px</span> - значення
+          </p>
+      </article>
+
+      <img src="css.png" width="800px" height="500px">
+
+      <article class="connect-css">
+        <h3>Основні способи підключення CSS:</h3>
+        <table>
+          <tr>
+            <td>Метод</td>
+            <td>Пояснення</td>
+          </tr>
+
+          <tr>
+            <td>Вбудований (inline)</td>
+            <td>Прямо в HTML-елементі через атрибут style</td>
+          </tr>
+          <tr>
+            <td>Внутрішній (в style )</td>
+            <td>У head HTML-документа</td>
+          </tr>
+          <tr>
+            <td>Зовнішній (файл .css)</td>
+            <td>Через link rel="stylesheet" — найкраща практика</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="facts-css">
+        <h4><i class="fa-solid fa-book"></i> Цікаві факти:</h4>
+        <p>
+          <i class="fa-solid fa-atom"></i> CSS створено у 1996 році Хоконом Віумом Лі (Håkon Wium Lie).<br><br>
+          <i class="fa-solid fa-atom"></i> Остання версія — CSS3, яка додала тіні, анімації, градієнти, Flexbox, Grid.<br><br>
+          <i class="fa-solid fa-atom"></i> CSS підтримується всіма сучасними браузерами та є обов’язковою частиною фронтенду.
+        </p>
+      </article>
+
+    </section>
+
+    <section class="Js-section">
+      <div style="position: relative; top: -80px;" id="JavaScript"></div>
+      <h1> <i class="fa-solid fa-gear"></i> JavaScript - анімації </h1>
+      <p class="n1">
+        <span>JavaScript</span> — це мова програмування, яка дозволяє створювати динамічні, інтерактивні вебсторінки.<br> Якщо <span>HTML</span> — це скелет, <span>CSS</span> — зовнішній вигляд, то <span>JavaScript</span> — це «мозок», який додає рух, реакції та логіку.<br><br>
+        JS працює безпосередньо в браузері й може реагувати на кліки, вводи, рух миші, зміну даних тощо.
+      </p>
+
+      <article class="work-Js">
+        <h2> Як виглядає JavaScript? <i class="fa-solid fa-bolt"></i></h2>
+        <p class="n2">JavaScript пишеться таким чином:</p>
+        <div class="code-box">
+          <span class="gray">&lt;</span><span class="blue">button</span><span class="gray">&gt;</span> <span class="light-blue">onclick</span>=</span><span class="red">"</span><span class="yellow">sayHello</span><span class="yellow-2">()</span><span class="red">"</span> натисни на мене <span class="gray">&lt;</span><span class="blue">/button</span><span class="gray">&gt;</span>
+          
+          <span class="gray">&lt;</span><span class="blue">script</span><span class="gray">&gt;</span>
+              <span class="blue">function</span> <span class="yellow">sayHello</span><span class="yellow-2">() {</span>
+                  <span class="yellow">alert</span><span class="blue">(</span><span class="red">"Привіт!"</span><span class="blue">)</span>;
+              <span class="yellow-2">}</span>
+          <span class="gray">&lt;</span><span class="blue">/script</span><span class="gray">&gt;</span>
+        </div>
+        <p class="n2">Кнопка викликає функцію <span class="yellow">sayHello()</span>,<br><span class="yellow">alert()</span> показує спливаюче повідомлення</p>
+      </article>
+
+      <article class="possibility-Js">
+        <h2>Що вміє JavaScript?</h2>
+
+        <table>
+          <tr>
+            <td>Можливість</td>
+            <td>Пояснення</td>
+          </tr>
+          <tr>
+            <td>Взаємодія з користувачем</td>
+            <td>Обробка кліків, натискань клавіш, введень у форми</td>
+          </tr>
+          <tr>
+            <td>Логіка</td>
+            <td>Умови (if), цикли (for, while), функції</td>
+          </tr>
+          <tr>
+            <td>Зміна HTML та CSS</td>
+            <td>Заміна тексту, кольору, розміру прямо під час перегляду сторінки</td>
+          </tr>
+          <tr>
+            <td>Робота з даними</td>
+            <td>Масиви, об’єкти, обчислення, збереження в пам’яті браузера</td>
+          </tr>
+          <tr>
+            <td>Запити до сервера</td>
+            <td>Завантаження або надсилання інформації без перезавантаження сторінки</td>
+          </tr>
+          <tr>
+            <td>Анімації, слайдери, спливаючі вікна</td>
+            <td>Всі динамічні елементи сайту, які "живуть"</td>
+          </tr>
+        </table>
+      </article>
+
+      <img src="Js.png" alt="photo" width="450px" height="400px">
+
+    </section>
+    
+  </main>
+
+  <footer id="contacts">
+    <h1><i class="fa-solid fa-user-secret"></i> What is the Web?</h1>
+    <ul>
+      <li>+380 (96) 012 91 34</li>
+      <li>WhatWeb@gmail.com</li>
+      <li>t.me/WhatIsTheWeb_ua</li>
+    </ul>
+
+    <p>2025 "What the Web?" copyright reserved</p>
+  </footer>
+  
+</body>
+</html>
